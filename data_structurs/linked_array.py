@@ -40,7 +40,6 @@ class LinkedList:
     def append(self, node):
         if self.head is None:
             self.head = node
-
         else:
             tmp_node = self.head
             while tmp_node.next:
